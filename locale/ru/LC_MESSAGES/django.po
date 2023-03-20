@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-20 05:38+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: todoapp/templates/todoapp/base.html:28
+msgid "Current"
+msgstr "Активные"
+
+#: todoapp/templates/todoapp/base.html:31
+#: todoapp/templates/todoapp/completedtodos.html:14
+msgid "Completed"
+msgstr "Завершенные"
+
+#: todoapp/templates/todoapp/base.html:34
+msgid "Create"
+msgstr "Создать"
+
+#: todoapp/templates/todoapp/base.html:41
+#: todoapp/templates/todoapp/base.html:44
+msgid "Logout"
+msgstr "Выйти"
+
+#: todoapp/templates/todoapp/base.html:49
+#: todoapp/templates/todoapp/signupuser.html:7
+#: todoapp/templates/todoapp/signupuser.html:32
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: todoapp/templates/todoapp/base.html:52
+#: todoapp/templates/todoapp/loginuser.html:7
+#: todoapp/templates/todoapp/loginuser.html:27
+msgid "Login"
+msgstr "Войти"
+
+#: todoapp/templates/todoapp/completedtodos.html:7
+msgid "Completed Tasks"
+msgstr "Завершенные задачи"
+
+#: todoapp/templates/todoapp/createtodo.html:7
+#: todoapp/templates/todoapp/currenttodos.html:26
+#: todoapp/templates/todoapp/home.html:18
+#: todoapp/templates/todoapp/viewtodo.html:7
+msgid "New Task"
+msgstr "Новая задача"
+
+#: todoapp/templates/todoapp/createtodo.html:20
+#: todoapp/templates/todoapp/viewtodo.html:20
+msgid "Title"
+msgstr "Название"
+
+#: todoapp/templates/todoapp/createtodo.html:24
+#: todoapp/templates/todoapp/viewtodo.html:24
+msgid "Memo"
+msgstr "Описание"
+
+#: todoapp/templates/todoapp/createtodo.html:29
+#: todoapp/templates/todoapp/viewtodo.html:29
+msgid "Important"
+msgstr "Важно"
+
+#: todoapp/templates/todoapp/createtodo.html:31
+#: todoapp/templates/todoapp/viewtodo.html:31
+msgid "Save"
+msgstr "Сохранить"
+
+#: todoapp/templates/todoapp/currenttodos.html:8
+msgid "Current Task(s)"
+msgstr "Актуальные задачи"
+
+#: todoapp/templates/todoapp/currenttodos.html:10
+msgid "Current Tasks"
+msgstr "Актуальные задачи"
+
+#: todoapp/templates/todoapp/currenttodos.html:24
+msgid "Looks like you don't have any tasks! Nice work."
+msgstr "Похоже, у вас нет никаких задач! Отличная работа."
+
+#: todoapp/templates/todoapp/home.html:13
+msgid "Simply Your Tasks."
+msgstr "Просто ваши задачи."
+
+#: todoapp/templates/todoapp/home.html:14
+msgid ""
+"\n"
+"            <p>Life is fun. But life is also busy. There's a million "
+"different things you could be doing. But what matters is <u>what</u> you do. "
+"We created <b><i>TickTask</i></b> to help you make sense of all of your "
+"opportunities and live that life that matters most to you. Your new "
+"organized life awaits.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>Жизнь это кайф. Но жизнью нужно заниматься. Есть миллионы "
+"разных вещей, которые ты мог или могла бы делать. Но важнее то, что ты <u>реально</u> делаешь. "
+"Мы создали <b><i>TickTask</i></b> чтобы помочь тебе использовать все свои "
+"возможности и жить той жизнью, которая для тебя важнее всего. "
+"Новая организованная жизнь ждет тебя!</p>\n"
+"            "
+
+#: todoapp/templates/todoapp/home.html:20
+msgid "Start"
+msgstr "Начать"
+
+#: todoapp/templates/todoapp/loginuser.html:20
+#: todoapp/templates/todoapp/signupuser.html:20
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: todoapp/templates/todoapp/loginuser.html:24
+#: todoapp/templates/todoapp/signupuser.html:25
+msgid "Password"
+msgstr "Пароль"
+
+#: todoapp/templates/todoapp/loginuser.html:31
+msgid "Need an account?"
+msgstr "Еще нет аккаунта?"
+
+#: todoapp/templates/todoapp/loginuser.html:31
+msgid "Sign Up here"
+msgstr " Зарегистрируйся тут"
+
+#: todoapp/templates/todoapp/signupuser.html:22
+msgid ""
+"Your username must be unique. We'll let you know if someone has taken it "
+"already."
+msgstr "Имя пользователя должно быть уникальным"
+
+#: todoapp/templates/todoapp/signupuser.html:29
+msgid "Confirm Password"
+msgstr "Подтверди пароль"
+
+#: todoapp/templates/todoapp/signupuser.html:36
+msgid "Do you already have an account?"
+msgstr "У тебя уже есть аккаунт?"
+
+#: todoapp/templates/todoapp/signupuser.html:36
+msgid "Login here"
+msgstr " Войди тут"
+
+#: todoapp/templates/todoapp/viewtodo.html:32
+#: todoapp/templates/todoapp/viewtodo.html:40
+msgid "Complete"
+msgstr "Завершить"
+
+#: todoapp/templates/todoapp/viewtodo.html:33
+#: todoapp/templates/todoapp/viewtodo.html:45
+msgid "Delete"
+msgstr "Удалить"

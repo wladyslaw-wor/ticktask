@@ -1,12 +1,13 @@
 {% extends 'todoapp/base.html' %}
+{% load i18n %}
 
 {% block content %}
     <div class="row justify-content-center mt-5">
         <div class="col-md-10">
             {% if todos %}
-                 <h1>{{ todos.count }} Current Task{{ todos.count|pluralize }}</h1>
+                 <h1>{{ todos.count }} {% trans "Current Task(s)" %}</h1>
             {% else %}
-                           <h1>Current Tasks</h1>
+                           <h1>{% trans "Current Tasks" %}</h1>
             {% endif %}
         </div>
     </div>
@@ -20,9 +21,9 @@
             </div>
         {% else %}
             <div class="text-center">
-                <h2>Looks like you don't have any tasks! Nice work.</h2>
+                <h2>{% trans "Looks like you don't have any tasks! Nice work." %}</h2>
             <br>
-            <a role="button" class="btn btn-primary" href="{% url 'createtodo' %}">New Task</a>
+            <a role="button" class="btn btn-primary" href="{% url 'createtodo' %}">{% trans "New Task" %}</a>
             </div>
         {% endif %}
         </div>
